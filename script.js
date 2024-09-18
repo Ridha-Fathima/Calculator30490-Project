@@ -1,4 +1,4 @@
-function calculate() {
+function calculate(operator) {
 
 
 let inputElement1 = document.getElementById("display1");
@@ -37,11 +37,11 @@ const value2 = parseFloat(inputElement2.value);
     finalResult.innerHTML  = "Result: " + resultElement;
 }
 
-function clearCalculate(): void {
+function clearCalculate() {
 
-    (document.getElementById("display1");
-    (document.getElementById("display2");
-    (document.getElementById("result");
+    document.getElementById("display1");
+    document.getElementById("display2");
+    document.getElementById("result");
    
 }
 
