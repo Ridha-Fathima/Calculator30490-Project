@@ -39,9 +39,9 @@ const value2 = parseFloat(inputElement2.value);
 
 function clearCalculate() {
 
-    document.getElementById("display1");
-    document.getElementById("display2");
-    document.getElementById("result");
+    document.getElementById("display1").value="";
+    document.getElementById("display2").value="";
+    document.getElementById("result").value="";
    
 }
 
